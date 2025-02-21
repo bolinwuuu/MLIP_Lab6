@@ -22,7 +22,7 @@ pipeline {
                 sudo "/Users/bolinw/miniconda3/bin/conda" run -n mlprod pytest test_utility.py
 
                 echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                #exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
